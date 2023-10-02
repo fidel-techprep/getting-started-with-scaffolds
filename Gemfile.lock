@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/firstdraft/draft_generators.git
+  revision: 3103fe2329f6de1de04112217fa2f0f86e9b7f31
+  specs:
+    draft_generators (0.0.4)
+      devise
+      indefinite_article
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -165,6 +173,8 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    indefinite_article (0.2.5)
+      activesupport
     io-console (0.6.0)
     irb (1.6.4)
       reline (>= 0.3.0)
@@ -411,6 +421,7 @@ DEPENDENCIES
   debug
   devise
   dotenv-rails
+  draft_generators!
   draft_matchers
   faker
   grade_runner
